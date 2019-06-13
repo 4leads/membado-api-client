@@ -1,0 +1,32 @@
+{
+  "name": "4leads/membado-api-client",
+  "description": "HTTP REST client, simplified for PHP",
+  "type": "library",
+  "homepage": "https://github.com/4leads/membado-api-client",
+  "keywords": [
+    "Membado",
+    "REST",
+    "API",
+    "PHP"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bertram Buchardt",
+      "email": "support@4leads.de"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "ext-curl": "*",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "'FourLeads\\": "lib/"
+    },
+    "files": [
+      "lib/MembadoAPI.php"
+    ]
+  }
+}
