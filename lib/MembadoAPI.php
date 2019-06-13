@@ -9,6 +9,7 @@
 
 namespace Membado;
 
+
 use stdClass;
 
 /**
@@ -16,7 +17,7 @@ use stdClass;
  */
 class MembadoAPI
 {
-    const VERSION = '0.9.0';
+    const VERSION = '0.9.2';
 
     //Client properties
     /**
